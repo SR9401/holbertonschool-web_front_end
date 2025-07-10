@@ -1,10 +1,10 @@
 body {
-	color: #161616;
+	--text-color: #161616;
 	--font-family: var(--font-family-base);
 }
 
 a {
-	color:#161616;
+	--text-color: #161616;
 }
 
 .visually-hidden {
@@ -12,7 +12,7 @@ a {
 }
 
 .card-category {
-	color: #d73953;
+	--text-color: #161616;
 }
 
 .section-tagline {
