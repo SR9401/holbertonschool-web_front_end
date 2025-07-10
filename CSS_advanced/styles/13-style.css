@@ -70,20 +70,20 @@ a {
 	text-transform: var(--section-tagline-transform);
 }
 
-a[href] {
+a {
   --text-color: #161616;
   text-decoration: none;
 }
 
-a[href]:visited {
+a:visited {
 	font-style: italic;
 }
 
-a[href]:hover {
+a:hover {
 	text-decoration: underline;
 }
 
-a[href]:active {
+a:active {
 	color: var(--color-light-grey);
 }
 
