@@ -60,8 +60,26 @@ a {
 	--text-color: #161616;
 }
 
+.section {
+  padding: var(--section-padding);
+}
+
 .section-header {
 	text-align: var(--section-header-align);
+	padding: var(--section-header-padding);
+}
+
+.section-body {
+  padding: var(--section-body-padding);
+}
+
+.section-footer {
+  padding: var(--section-footer-padding);
+  text-align: var(--section-footer-align);
+}
+
+footer {
+  padding: var(--footer-padding);
 }
 
 .section-title{
